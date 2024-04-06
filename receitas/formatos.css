@@ -1,0 +1,49 @@
+/* Estilos personalizados */
+
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 60px; /* Ajuste para o navbar fixo */
+}
+
+header {
+    background-color: #E9967A;
+}
+
+nav {
+    height: 60px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E9967A;
+    min-height: calc(100vh - 100px); /* Altura mínima */
+    overflow-y: auto;
+}
+
+footer {
+    height: 25px;
+    text-align: center;
+    background-color: black;
+}
+
+h1 {
+    font-size: 28pt;
+    position: relative;
+    top: 2px;
+    color: black;
+}
+
+/* Classe's */
+
+.logotipo {
+    width: 50px; 
+    height: 50px;
+}
+
+.text {
+    font-size: 16pt;
+}
